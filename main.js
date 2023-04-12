@@ -8,17 +8,17 @@ function carregar() {
     msgg.innerHTML = `Bom Dia!`
     if (hora >=0 && hora <12) {
         //bom dia
-        img.src = '../modelo/img/fotomanha.png'
+        img.src = './img/fotomanha.png'
         msgg.innerHTML = 'Bom Dia!'
         document.body.style.background ='#e2cd9f'
     } else if (hora >=12 && hora <18) {
         //boa tarde
-        img.src = '../modelo/img/fototarde.png'
+        img.src = './img/fototarde.png'
         msgg.innerHTML = 'Boa Tarde!'
         document.body.style.background = '#b9846f'
     }else {
         // boa noite
-        img.src = '../modelo/img/fotonoite.png'
+        img.src = './img/fotonoite.png'
         msgg.innerHTML = 'Boa Noite!'
         document.body.style.background = '#515154'
     }
